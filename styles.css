@@ -101,7 +101,7 @@ img {
 .foot:hover {
     border-bottom: 0px;
     transition: .2s;
-    
+    box-shadow: 10px 10px 8px #888888;
     transform: translateY(-1.0rem) scale(1.03);
 }
 .color p {
