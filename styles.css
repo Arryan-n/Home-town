@@ -1,0 +1,128 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    }
+.header {
+   background: url(images/agri.jpg) no-repeat 0 -580px; 
+   height: 300px;
+   margin: -21.7px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+img {
+    width: 100px;
+}
+.header h1 {
+    background: #457B9D;
+    font-family: Arial;
+    font-size: 32px;
+    font-style: bold;
+    color: #fff;
+    padding: 5px 8px 5px 8px;
+    border-radius: 10px;
+}
+.header h2 {
+    color: #fff;
+    background: #1D3557;
+    margin-top: -11px;
+    padding: 3px 9px 3px 9px;
+    border-radius: 10px;
+}
+.section {
+    background: #F1FAEE;
+    height: 370px;
+    margin-right: -22px;
+}
+
+.section h3 {
+    padding-top: 30px;
+    font-style: bold;
+    /* font-family: 'Dosis', sans-serif; */
+    font-family: Arial;
+    padding-bottom: 30px;
+    font-size: 24px;
+    line-height: 100%;
+}
+.sub-sec {
+    display: flex; /* flex makes its direct child into inline*/
+    justify-content: space-around;
+    font-family: Arial;
+    font-size: 16px;
+    
+}
+.sub-sec img {
+    border-radius: 50%;
+    height: 100px;
+    border: 3px solid #1D3557;
+}
+.sub-sec div img:hover {
+   box-shadow: -7px 5px black;
+   transition: .3s;
+}
+.banyan p {
+    margin-top: -8px;
+}
+
+.footer {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A8DADC;
+    padding: 10px 15px 10px 15px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 100px;
+    border-bottom: 7px solid #1D3557;
+    /* box-shadow: -5px -5px black; */
+    
+}
+.foot:hover {
+    border-bottom: 0px;
+    transition: .2s;
+    
+    transform: translateY(-1.0rem) scale(1.03);
+}
+.color p {
+    font-size: 16px;
+    font-family: Arial;
+}
+.color h3 {
+    font-size: 24px;
+    font-family: Arial;
+}
+.color h4 {
+    font-size: 16px;
+    font-family: Arial;
+}
+.copyright-sec {
+    background: #457B9D;
+    color: #F1FAEE;
+    font-family: Arial;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-bottom: 0px;
+    margin-right: -23px;
+}
